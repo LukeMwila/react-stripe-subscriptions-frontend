@@ -6,10 +6,15 @@ export type Product = {
   price: number;
 };
 
-const STANDARD_PRODUCT_ID = "";
-const PREMIUM_PRODUCT_ID = "";
-const ENTERPRISE_PRODUCT_ID = "";
+/** Stripe publishable key */
+export const STRIPE_PUBLISHABLE_KEY = "pk_test_eAgCi5ajqtUG7a1A0KeTngUI";
 
+/** Stripe product plan ids */
+const STANDARD_PRODUCT_ID = "plan_E9ZYod6dUbZOuT";
+const PREMIUM_PRODUCT_ID = "plan_E9ZYod6dUbZOuT";
+const ENTERPRISE_PRODUCT_ID = "plan_E9ZYod6dUbZOuT";
+
+/** Stripe product plans */
 export const PRODUCT_PLANS: Array<Product> = [
   {
     id: STANDARD_PRODUCT_ID,

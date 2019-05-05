@@ -7,6 +7,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toast-notifications": "^1.4.0",
     "reactstrap": "^8.0.0",
     "styled-components": "^4.2.0"
   },
